@@ -18,7 +18,17 @@ P. 339: the expression for $|\hat{r}(x) - r_J(x)|$ has a square misplaced and th
 
 P. 348, Exercise 11: $\sqrt{n}$ in the expression for $\hat{\sigma}$ is unnecessary.
 
+P. 360, Expression (22.29) is missing the multiplier $n_s$:
+
+``` math
+I(t) = \sum_{s=1}^2 \gamma_s n_s,
+```
+
+where $n_s = \sum_{i=1}^n I(X_i \in A_s)$.
+
 P. 361, Figure 22.3: the value on the y axis should be 100.
+
+P. 362, Figure 22.4 and P. 365, Figure 22.7 were plotted using the deviance as the split criterion as opposed to Gini which is described in Section 22.7.
 
 P. 367, Definition 22.20 should say "Otherwise, define $VC(\mathcal{A})$ to be the largest $k$ for which $s(\mathcal{A}, k) = 2^k$".
 
