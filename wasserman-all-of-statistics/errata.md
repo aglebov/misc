@@ -45,3 +45,9 @@ P. 370: the equation for finding $\hat{a}_0$ should be
 ``` math
 Y_i (X_i^T \hat{a} + \hat{a}_0) = 1.
 ```
+
+P. 421, Exercise 3(b): the equation for the Cauchy density is missing a $\pi$:
+
+``` math
+g(x) = \frac{1}{\pi(1 + x^2)}.
+```
